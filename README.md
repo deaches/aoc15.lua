@@ -1,7 +1,7 @@
 Advent of Code '15
 ==================
 
-- [ ] [Day 1: Note Quite Lisp](https://adventofcode.com/2015/day/1)
+- [x] [Day 1: Note Quite Lisp](https://adventofcode.com/2015/day/1)
 - [ ] [Day 2: I Was Told There Would Be No Math](https://adventofcode.com/2015/day/2)
 - [ ] [Day 3: Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3)
 - [ ] [Day 4: The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4)
