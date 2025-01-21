@@ -46,11 +46,24 @@ function present:paper()
    return 2 * (lw + wh + lh) + self:slack()
 end
 
-paper = 0
+function present:volume()
+   return self.length * self.width * self.height
+end
+
+function present:ribbon()
+   local smallest = self:smallestsides()
+   return 2 * (smallest[1] + smallest[2]) + self:volume()
+end
+
+paper  = 0
+ribbon = 0
 
 for line in io.lines() do
    local gift = present.new(line)
+
    paper = paper + gift:paper()
+   ribbon = ribbon + gift:ribbon()
 end
 
 print(paper)
+print(ribbon)
